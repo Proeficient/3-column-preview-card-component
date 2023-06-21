@@ -1,0 +1,209 @@
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: "Lexend Deca";
+    flex-direction: column;
+    background-color: rgb(242, 242, 242);
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.sedans{
+    background-color: rgb(226, 135, 38);
+    padding: 47px;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+    height: 405px;
+}
+
+.suv{
+    background-color: rgb(0, 104, 112);
+    width: 300px;
+    padding: 47px;
+    height: 405px;
+    
+}
+.luxury{
+    background-color: rgb(0, 66, 65);
+    width: 300px;
+    padding: 47px;
+    border-radius: 0px 10px 10px 0px;
+    height: 405px;
+}
+
+.titulo{
+    font-family: "Big Shoulders Display";
+    text-transform: uppercase;
+    color: rgb(242, 242, 242);
+    padding: 5px 0;
+    font-size: 2.7em;
+}
+
+.paragrafo{
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 25px;
+    margin-bottom: 80px;
+    
+}
+
+.botao{
+    background-color: rgb(242, 242, 242);
+    width: 145px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.botao:hover{
+    background: none;
+    border: 2px solid  rgb(242, 242, 242);
+    color: rgba(255, 255, 255, 0.7);
+    width: 145px;
+    height: 45px;
+}
+
+.verde{
+    color: rgb(0, 66, 65);
+}
+
+.ciano{
+    color: rgb(0, 104, 112);
+}
+
+.laranja{
+    color: rgb(226, 135, 38);
+
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+
+}
+
+@media(min-width:270px) and (max-width:910px){
+    body{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        font-family: "Lexend Deca";
+        flex-direction: column;
+        background-color: rgb(242, 242, 242);
+        
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container{
+        margin: 100px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 375px;
+        border-radius: 10px;
+    }
+
+    .container-content{
+        margin: 35px;
+    }
+
+    .sedans{
+        background-color: rgb(226, 135, 38);
+        width: 300px;
+        border-radius: 10px 10px 0 0px;
+        height: 435px;
+        padding: 0px;
+    }
+    .suv{
+        background-color: rgb(0, 104, 112);
+        width: 300px;
+        height: 435px;
+        padding: 0px;
+        
+    }
+    .luxury{
+        background-color: rgb(0, 66, 65);
+        width: 300px;
+        border-radius: 0px 0px 10px 10px;
+        height: 435px;
+        padding: 0px;
+    }
+
+    .titulo{
+        font-family: "Big Shoulders Display";
+        text-transform: uppercase;
+        color: rgb(242, 242, 242);
+        font-size: 2.7em;
+        padding: 0;
+    }
+
+    .paragrafo{
+        color: rgba(255, 255, 255, 0.7);
+        line-height: 25px;
+        margin-bottom: 25px;
+        
+    }
+
+    .botao{
+        background-color: rgb(242, 242, 242);
+        width: 145px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        margin-bottom: 35px;    
+    }
+
+    .botao:hover{
+        background: none;
+        border: 2px solid  rgb(242, 242, 242);
+        color: rgba(255, 255, 255, 0.7);
+        width: 145px;
+        height: 45px;
+    }
+
+    .verde{
+        color: rgb(0, 66, 65);
+    }
+    
+    .ciano{
+        color: rgb(0, 104, 112);
+    }
+    
+    .laranja{
+        color: rgb(226, 135, 38);
+    
+    }
+    .attribution{
+        position: absolute;
+        top: 0;
+    
+    }
+}
